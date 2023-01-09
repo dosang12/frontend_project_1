@@ -1,0 +1,204 @@
+.main5 {
+  width: 100%;
+  height: 100vh;
+  background: url(../images/main_section05_bg.jpg);
+  background-size: 100% 100%;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+.lastlayout {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1440px;
+  box-sizing: border-box;
+  position: relative;
+}
+.main5 .main1 img {
+  display: inline-block;
+  margin-top: 5%;
+}
+.main5 h3 {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 42px;
+}
+.main5 p {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 19px;
+  margin-top: 10px;
+}
+.main5apply {
+  margin: 0 auto;
+  box-sizing: border-box;
+  width: 95%;
+  height: 400px;
+  margin-top: 60px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+.main5apply ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.lia {
+  box-sizing: border-box;
+  padding-right: 40px;
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+}
+
+.lia a {
+  box-sizing: border-box;
+  display: flex;
+  width: 100%;
+  height: 46%;
+  border: 1px solid white;
+  border-top: 3px solid white;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  font-size: 28px;
+  transition: 0.5s;
+  font-family: "Noto Sans KR", sans-serif;
+}
+.lia a:hover {
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-top: 3px solid rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.lib {
+  padding: 0 40px;
+  width: 40%;
+  height: 100%;
+  display: flex;
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.libtop {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.libtop h3 {
+  font-size: 28px;
+}
+.libtop img {
+  width: 20px;
+  height: 20px;
+  transition: 0.5s;
+}
+.libtop img:hover {
+  transform: rotate(180deg);
+}
+
+.libbottom {
+  width: 100%;
+  height: 75%;
+}
+
+.libbottom a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/section5_recrPopup202212.png);
+}
+
+.lic {
+  padding-left: 40px;
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.lictop {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.lictop h3 {
+  font-size: 28px;
+}
+.lictop img {
+  width: 20px;
+  height: 20px;
+  transition: 0.5s;
+}
+.lictop img:hover {
+  transform: rotate(180deg);
+}
+.licbottom {
+  width: 100%;
+  height: 75%;
+}
+.licbottom ul {
+  box-sizing: border-box;
+  text-align: left;
+  width: 100%;
+  height: 100%;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  display: flex;
+  flex-direction: column;
+}
+.licbottom ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 20%;
+  color: white;
+  border-top: 1px solid rgba(255, 255, 255, 0.47);
+}
+.licbottom ul li a {
+  display: block;
+  width: 75%;
+  height: auto;
+  color: white;
+  font-size: 16px;
+  white-space: nowrap;
+}
+.licbottom ul li a:hover {
+  text-decoration: underline;
+}
+.licbottom ul li a span:hover {
+  text-decoration: underline;
+}
+.licbottom ul li img {
+  padding-right: 5px;
+}
+.licbottom ul li p {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  width: 20%;
+  font-size: 12px;
+  margin-top: 0;
+}
+.licbottom .new span {
+  width: 90%;
+  display: inline-block;
+  margin-bottom: 2px;
+  box-sizing: border-box;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.licbottom .lastli a {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}

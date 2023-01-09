@@ -1,0 +1,4 @@
+console.log(window);
+window.open("popup.html", "배너", "width=300,height=300,left=50,top=10");
+// 윈도우는-브라우저를 의미한다.
+// 창이 열리자마자 실행되는 함수.

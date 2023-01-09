@@ -1,0 +1,230 @@
+.main3 {
+  width: 100%;
+  height: 100vh;
+  background: #f6f6f6 url(../images/main_3news_bg.png) bottom right;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.main3 .main1 img {
+  display: inline-block;
+  margin-top: 5%;
+}
+.main3 h3 {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 42px;
+}
+.main3 p {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 19px;
+  margin-top: 10px;
+}
+.main3news {
+  margin: 0 auto;
+  box-sizing: border-box;
+  width: 95%;
+  height: 470px;
+  margin-top: 60px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+.main3top {
+  width: 100%;
+  height: 45%;
+}
+
+.main3top ul {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-evenly;
+}
+.main3top ul li {
+  width: 23.5%;
+  height: 100%;
+  background: white;
+  box-sizing: border-box;
+  border: 5px solid white;
+  border-top-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+  box-shadow: 5px 5px 20px rgb(221 221 221 / 57%);
+}
+.main3bottom {
+  width: 100%;
+  height: 55%;
+}
+.main3bottom ul {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-evenly;
+}
+
+.main3bottom ul li {
+  margin-top: 20px;
+  width: 23.5%;
+  height: 100%;
+  background: white;
+  box-sizing: border-box;
+  border: 0px solid white;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+  box-shadow: 5px 5px 20px rgb(221 221 221 / 57%);
+}
+#main3bottomr {
+  border-top-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+  border-top-right-radius: 0%;
+  background-image: url(../images/webzine_bg_202212.gif);
+}
+
+.main3top h4 {
+  background-color: #3d66c4;
+  width: 100px;
+  height: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  position: relative;
+  left: -5px;
+  top: 20px;
+  color: white;
+}
+.main3top ul li a:hover {
+  text-decoration: underline;
+}
+
+#lastnews {
+  background-color: #fd9500;
+  width: 100px;
+  height: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  position: relative;
+  left: -5px;
+  top: 20px;
+  color: black;
+}
+.main3top p {
+  position: relative;
+  text-align: left;
+  top: 40px;
+  padding: 10px;
+  font-size: 19px;
+  letter-spacing: 0.4;
+  font-weight: 500px;
+}
+.newsdate {
+  font-size: 14px;
+  text-align: left;
+  position: relative;
+  bottom: -50px;
+  padding-left: 10px;
+}
+.newsdate img {
+  display: block;
+  float: right;
+
+  transition: 0.5s;
+  margin-right: 20px;
+}
+
+.newsdate img:hover {
+  transform: rotate(180deg);
+}
+
+.main3bottomt {
+  box-sizing: border-box;
+  width: 100%;
+  height: 80%;
+}
+.main3bottomb {
+  box-sizing: border-box;
+  width: 100%;
+  height: 20%;
+  text-align: left;
+  padding: 3% 7%;
+}
+#movie {
+  background-position: center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  padding-top: 18px;
+  background-color: black
+}
+#cardnews {
+  background-image: url(../images/getImage.jpg);
+  background-position: top;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+#apply {
+  background-image: url(../images/199.jpg);
+  background-position: top left;
+  background-size: auto 120%;
+  background-repeat: no-repeat;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+#main3bottomr a {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  text-align: left;
+}
+
+#main3bottomr a h4 {
+  font-size: 25px;
+  margin: 0;
+  font-size: 25px;
+  line-height: 27px;
+  font-family: "Titillium Web";
+  font-weight: 600;
+  color: #333;
+}
+#main3bottomr a p {
+  font-size: 12px;
+  line-height: 18px;
+  color: #333;
+}
+.buttonbox {
+  display: flex;
+  justify-content: center;
+}
+.buttonbox button {
+  margin-top: 40%;
+  box-sizing: border-box;
+  background: #ffffff;
+  padding: 10px;
+}
+.bleft {
+  box-sizing: content;
+  width: 150px;
+  height: 40px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+
+  font-family: "Noto Sans KR", sans-serif;
+  cursor: pointer;
+  font-size: 12px;
+}
+.bright {
+  width: 150px;
+  height: 40px;
+  box-sizing: content;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-left: 1px solid #8799ac;
+  font-family: "Noto Sans KR", sans-serif;
+  cursor: pointer;
+  font-size: 12px;
+}
+.bleft:hover,
+.bright:hover {
+  color: white;
+  background-color: #8799ac;
+}

@@ -1,0 +1,131 @@
+.main4 {
+  width: 100%;
+  height: 100vh;
+  background: #e8f4ff url(../images/curture_sec4m_bg.png) left bottom;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.main4 .main1 img {
+  display: inline-block;
+  margin-top: 5%;
+}
+.main4 h3 {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 42px;
+}
+.main4 p {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 19px;
+  margin-top: 10px;
+}
+.main4culture {
+  margin: 0 auto;
+  box-sizing: border-box;
+  width: 95%;
+  height: 470px;
+  margin-top: 60px;
+  font-family: "Noto Sans KR", sans-serif;
+  background: #f6f6f6;
+  display: flex;
+  justify-content: space-between;
+}
+.main4left,
+.main4right {
+  width: calc((100% / 2) - 12px);
+  height: 470px;
+}
+.main4left {
+  position: relative;
+  background: url(../images/lbox-onmuseum.jpg);
+  background-position: center;
+}
+.main4leftcenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 20;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  letter-spacing: -1.48px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.main4leftcenter p {
+  color: white;
+  font-size: 34px;
+  line-height: 38px;
+}
+.main4leftcenter button {
+  margin-top: 245px;
+  background-color: #3d66c4;
+  padding: 5px 15px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s;
+  width: 145px;
+  height: 40px;
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: -0.56px;
+}
+.main4leftcenter button:hover {
+  color: black;
+  background-color: white;
+}
+.main4righttop {
+  width: 100%;
+  height: calc((100% / 2) - 12px);
+  display: flex;
+  justify-content: space-between;
+}
+
+.main4righttop .main4righttopl {
+  display: flex;
+  width: calc((100% / 2) - 12px);
+  height: 100%;
+  background-image: url(../images/culture_youtube.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.main4righttop .main4righttopr {
+  display: flex;
+  width: calc((100% / 2) - 12px);
+  height: 100%;
+  background-image: url(../images/sec4m_rtrbox_bg_202202.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.main4righttopr:hover h2 {
+  text-decoration: underline;
+}
+
+.main4righttopl,
+.main4righttopr {
+  width: calc((100% / 2) - 12px);
+  height: 100%;
+}
+
+.main4righttopr {
+  box-sizing: border-box;
+  text-align: left;
+  padding: 25px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+.main4righttopr p {
+  font-size: 14px;
+}
+.main4rightbottom {
+  width: 100%;
+  height: calc((100% / 2) - 12px);
+  background-image: url(../images/1644214968206.jpg);
+}
+.main4rightbottom:hover {
+  cursor: pointer;
+}
+.main4right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
