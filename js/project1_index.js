@@ -1,17 +1,3 @@
-moveScrollLeft = function () {
-  var _scrollX = $(".containerbox").scrollLeft();
-};
-$(".moveleft").click(function () {
-  $(".containerbox").animate({ left: "140px" }, 100);
-});
-
-moveScrollRight = function () {
-  var _scrollX = $(".containerbox").scrollLeft();
-};
-$(".moveright").click(function () {
-  $(".containerbox").animate({ left: "-140px" }, 100);
-});
-
 var spanimg = document.querySelectorAll(".blockbox");
 console.log(spanimg)
 
@@ -57,3 +43,34 @@ $(document).ready(function(){
   }, speed);
   }
   }
+//rightsidebar 완성
+
+
+
+const slides = document.querySelector('.containerbox'); //전체 슬라이드 컨테이너
+const slideImg = document.querySelectorAll('.containerbox li'); //모든 슬라이드들
+let currentIdx = 0; //현재 슬라이드 index
+const slideCount = slideImg.length; // 슬라이드 개수
+const prev = document.querySelector('.moveleft'); //이전 버튼
+const next = document.querySelector('.moveright'); //다음 버튼
+const slideWidth = 140; //한개의 슬라이드 넓이
+const slideMargin = 20; //슬라이드간의 margin 값
+
+slides.style.width = (slideWidth + slideMargin) * slideCount + 'px';
+
+function moveSlide(num) {
+  slides.style.left = -num * 160 + 'px';
+  currentIdx = num;
+}
+
+prev.addEventListener('click', function () {
+
+  if (currentIdx !== 0) moveSlide(currentIdx - 1);
+},1000);
+
+next.addEventListener('click', function () {
+
+  if (currentIdx !== 3 ) {
+    moveSlide(currentIdx + 1);
+  }
+},1000);
