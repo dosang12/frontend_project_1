@@ -250,12 +250,12 @@ aside ul li {
   margin-left: 15px;
   cursor: pointer;
 }
-.rightsidebar li a {
+.rightsidebar li a span{
   display: none;
   font-size: 16px;
 }
 
-.rightsidebar li:hover a{
+.rightsidebar li:hover a span{
   display: inline-block;
 }
 
@@ -280,7 +280,7 @@ aside ul li {
 }
 .containerbox {
   position: relative;
-  padding: 0 140px;
+  padding: 0 100px;
   width: calc(100%-280px);
   display: flex;
 }
@@ -301,6 +301,7 @@ aside ul li {
 .container .moveright {
   background-color: white;
   position: absolute;
+  margin-left:40px;
   right: 0;
   width: 100px;
   height: 100%;
