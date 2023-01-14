@@ -3,6 +3,7 @@ main {
   height: 100vh;
   text-align: center;
   overflow: hidden;
+  position: relative;
 }
 main img {
   display: inline-block;
@@ -144,10 +145,14 @@ main p {
   transition: all 1s ease;
 }
 .wave{
-  margin-top: -50px;
+  position: absolute;
   animation-name: wave;
   animation-duration: 10s;
   animation-iteration-count: infinite;
+  bottom: 0;
+  z-index: -99;
+  opacity: 0.5;
+  
 }
 
 

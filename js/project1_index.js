@@ -63,6 +63,7 @@ $(document).ready(function(){
 
 
 
+
 // const slides = document.querySelector('.containerbox'); //전체 슬라이드 컨테이너
 // const slideImg = document.querySelectorAll('.containerbox li'); //모든 슬라이드들
 // let currentIdx = 0; //현재 슬라이드 index
