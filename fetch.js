@@ -60,7 +60,7 @@ async function setPosts() {
       let point = [this.nx, this.ny];
       console.log(point);
       if (point[0] == 73 && point[1] == 134) {
-        locText = "강원도";
+        locText = "서울";
       }
     },
   };
