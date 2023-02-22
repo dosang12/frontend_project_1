@@ -3,7 +3,7 @@ let statusText, rainIcon, locText;
 rainIcon = ['<i class="bi bi-brightness-high"></i>', '<i class="bi bi-cloud-drizzle"></i>', '<i class="bi bi-cloud-haze"></i>', '<i class="bi bi-cloud-lightning-rain"></i>', '<i class="bi bi-moon-stars"></i>'];
 //getUltraSrtNcst(초단기실황),getVilageFcst(단기예보)
 
-let url = "http://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/"; /*URL*/
+let url = "https://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/"; /*URL*/
 let params = {
   type: ["getUltraSrtNcst", "getVilageFcst"], //(초단기실황)(단기예보)
   key: "8rEO4GGvAt50j%2B%2Fb%2F76L2LAN6mSFS33XGW0VY7fcQ6bbjViMesdAHDqY%2FaYbLhlx6EWslHKL77QpvQG4ldLVIg%3D%3D",
