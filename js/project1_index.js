@@ -20,24 +20,36 @@ js();
 //sidenav end
 
 //box slide start
-const container = document.querySelector(".containerbox");
+const containerbox = document.querySelector(".containerbox");
 const leftButton = document.querySelector(".moveleft");
 const rightButton = document.querySelector(".moveright");
+containerbox.style.transition = "all 0.5s";
+containerbox.style.transform = "translateX(0px);";
 
-const scrollSize = 220; // 이동할 거리(박스의 너비와 margin-right의 합)
+let scrollSize = 220; // 이동할 거리(박스의 너비와 margin-right의 합)
+//최대이동거리
+const destinyScroll = scrollSize * 3;
+//클릭횟수
+let count = 0;
+//이동거리
+let destiny;
 
 leftButton.addEventListener("click", () => {
-  containerbox.scrollBy({
-    left: -scrollSize,
-    behavior: "smooth",
-  });
+  count++;
+  destiny = scrollSize * count;
+  if (destiny >= destinyScroll) {
+    destiny = 0;
+  }
+  containerbox.style.transform = "translateX(" + -destiny + "px)";
 });
 
 rightButton.addEventListener("click", () => {
-  containerbox.scrollBy({
-    left: scrollSize,
-    behavior: "smooth",
-  });
+  count--;
+  destiny = scrollSize * count;
+  if (destiny <= destinyScroll) {
+    destiny = 0;
+  }
+  containerbox.style.transform = "translateX(" + -destiny + "px)";
 });
 //box slide end
 

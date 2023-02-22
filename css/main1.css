@@ -23,10 +23,35 @@ section p {
 /* 경고창 종료 */
 
 /* 날씨 */
-#containerweather {
+#weather {
   position: absolute;
-  top: 100px;
+  left: 32%;
+  top: 200px;
   font-family: Noto Sans KR;
+  background-color: #222222;
+  color: white;
+  opacity: 0.3;
+  padding: 15px;
+  border-radius: 20px;
+  z-index: 9999;
+  padding-bottom: 40px;
+}
+#containerweather .textW {
+  font-size: 20px;
+}
+#weather span a {
+  color: white;
+}
+.weatherinner span {
+  font-size: 20px;
+  color: lightblue;
+  padding: 0px 10px;
+}
+.fromW {
+  position: absolute;
+  margin-top: 5px;
+  right: 15px;
+  font-size: 10px;
 }
 /* 날씨 끝 */
 .mainbottom {

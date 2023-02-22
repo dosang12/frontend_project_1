@@ -66,9 +66,11 @@ async function setPosts() {
   };
   cast.rainInfo();
   cast.loc();
-  tr.innerHTML = `<td>오늘날짜: ${cast.baseDate}</td><tr>
-    <td>지역:${locText}</td>
-  </tr><td>강수형태:${statusText}${rainIcon}</td><td>기온:${cast.temperature}</td><td>풍속:${cast.wind}m/s</td>`;
+  tr.innerHTML = `<span class="weatherinner">Today : ${cast.baseDate} <span>/</span></span>
+   <span class="weatherinner">현재지역 : ${locText} <span>/</span></span>
+  <span class="weatherinner">기상상황 : ${statusText}${rainIcon} <span>/</span></span>
+  <span class="weatherinner">기온 : ${cast.temperature}<span>/</span></span>
+  <span class="weatherinner">풍속 : ${cast.wind} m/s</span>`;
   castEl.appendChild(tr);
   castBox.appendChild(castEl);
 }

@@ -59,7 +59,9 @@ body {
   width: 100%;
   margin: 0 auto;
 }
-
+.main1 .main2 .main3 .main4 .main5 {
+  transition: all 1s ease;
+}
 .wrap {
   position: relative;
   width: 100%;
